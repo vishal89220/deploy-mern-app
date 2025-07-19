@@ -22,7 +22,7 @@ function Login() {
       
 
     try{
-      const url = 'http://localhost:8080/auth/login';
+      const url = 'https://deploy-mern-app-ibg8.onrender.com/auth/login';
 
       const response = await fetch(url,{
         method : 'POST',

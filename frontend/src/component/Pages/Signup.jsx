@@ -26,7 +26,7 @@ const navigate = useNavigate()
     }
 
     try {
-      const url  = 'http://localhost:8080/auth/signup'
+      const url  = 'https://deploy-mern-app-ibg8.onrender.com/auth/signup'
       const response = await fetch(url, {
         method: "POST",
         headers: {
